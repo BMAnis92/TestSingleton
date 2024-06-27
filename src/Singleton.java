@@ -11,7 +11,11 @@ public class Singleton {
         nbrExection++;
     }
 
-    //getInstance
+    /**
+     * methode getInstance
+     * @return
+     */
+
     public static Singleton getInstance() {
         if (instance == null) {
             instance = new Singleton();
